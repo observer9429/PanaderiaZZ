@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+body{
+    background: #C8B696;
+}
+
+#navprincipal{
+    
+    background-color: #ccccff;
+}
+
+li{
+   /* background-color: #cccc00;*/
+    padding: 10px;
+    font-size: 20px;
+    /*para hacer una equiqueta block a inline, y que vaya seguido*/
+    display:inline;
+}
+
+#eltitulo{
+                
+                font: bold 36px Verdana,Geneva, sans-serif;
+              
+    			color: #093962;
+  
+  				text-shadow: 3px 3px 10px red, -3px -3px 10px yellow;
+                
+                
+                
+}
+
+#cabezaLista{
+	
+	background-color:#519A9A;
+	float:left;
+}
+
+#nombreLista{
+	font-size:20px;
+}
+
+#pitufo{
+	width:80px;
+	height:80px;
+}
+
+#fotoFondo{
+	width:600px;
+	height:500;
+}
+
+#losh3{
+	text-align:right;
+	margin-right:15px;
+	
+}
+
+#formOPC{
+	
+	playing:  inline;
+}
+
+#mover{
+	
+	
+	float: right;
+	margin-left:200px;
+	
+	
+}
+
+.log{
+border: 1px solid BLACK;
+  
+}
+.objetos{
+	
+	font-size:15px;
+	margin-left:0px;;
+	display: block;
+}
+
+
+section{
+	
+	width:91%;
+    border-top: 1px dashed #999;
+    margin: 15px auto;
+	
+	margin-left:250px;
+}
+
+figure{
+    float:left;
+}
+
+figure img{
+    padding: 4px;
+    background: #666;
+    border-radius:8px;
+    -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+    box-shadow:#999 6px 6px 10px;
+    
+}
+
+figure img:hover{
+    -moz-transform:scale(1.2);
+

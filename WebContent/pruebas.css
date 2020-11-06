@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	background-color: #C8B696 ; /*#9AD9E8*/
+}
+
+#cabezaLista{
+	
+	
+	
+	background-color:#519A9A;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	padding: 24px;
+	
+	width:200;
+	height:600px;
+	
+}
+
+#pitufo{
+	width:80px;
+	height:80px;
+}
+
+li{
+	
+	font-size:25px;
+}
+
+#navprincipal{
+    
+    background-color: #ccccff;
+}
+
+li{
+   /* background-color: #cccc00;*/
+    padding: 10px;
+    font-size: 20px;
+    /*para hacer una equiqueta block a inline, y que vaya seguido*/
+    display:inline;
+}
+
+#navprincipal{
+    
+    background-color: #ccccff;
+    
+}
+
+
+#fotoFondo{
+	width:1000px;
+	height:550;
+	
+	margin-top:50px;
+	margin-left:150px;
+}
+
+
+.objetos{
+	
+	font-size:20px;
+	margin-left:0px;;
+	display: block;
+}
+
+
+#nombreLista{
+	font-size:30px;
+}
+
+
+#losh3{
+	text-align:right;
+	margin-right:15px;
+	
+}
+
+.log{
+border: 1px solid BLACK;
+  
+}
+
+
+/* se puede poner por herencia digamos */
+/* todo los strong que esten dentro de un a, y as u vez dentro de un section */
+section a strong{
+	
+}
+
+strong.destacado{
+	/*  es apra los strong con atributo de clase="desttacado*/
+}
+
+strong .destacado{
+	
+	/* para los strong que tengan una etiqueta con atributo de clase="destacado"*/
+}
+
+ol .objetos{
+	
+	list-style:none;
+	background-size:20px;
+	background-image: url(pat.png);
+	background-repeat:no-repeat;
+	
+	background-position:0 10px;;
+	padding-left:28px;
+	
+	height:10px;
+	
+	
+}
+
